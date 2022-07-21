@@ -1,0 +1,28 @@
+button {
+    margin: 20px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 40%;
+    aspect-ratio: 1;
+    min-width: 500px;
+}
+
+.square-divs {
+    background-color: lightpink;
+    border: 0px;    
+    aspect-ratio: 1;
+}
+
+/** Implemented Following Using Event Listeners in js-file.js*/
+
+/* .square-divs:hover {
+    background-color: lightseagreen;
+} */
+
+/* .square-divs:not(:hover){
+    transition: background-color 0.7s ease-out;
+} */
